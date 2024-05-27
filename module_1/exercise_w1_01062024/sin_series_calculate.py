@@ -64,4 +64,4 @@ def calculate_cosh(x, n):
         print(e)
     
     
-calculate_cos(3.14, 1)
+calculate_cosh(3.14, 10)

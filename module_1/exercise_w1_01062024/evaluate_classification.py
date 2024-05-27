@@ -20,4 +20,4 @@ def exercise1(tp, fp, fn):
     print(f"Recall: {recall}")
     print(f"F1-score: {f1_score}")
 
-exercise1(tp=2, fp=3, fn=4)
+exercise1(tp=2, fp=4, fn=5)
