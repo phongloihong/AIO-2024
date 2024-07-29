@@ -91,7 +91,7 @@ def predict_play_tennis(X, list_x_name, prior_probability, conditional_probabili
 
     return y_pred
 
-
+ 
 train_data = create_train_data()
 prior_probability = compute_prior_probability(train_data)
 print("P(play tennis = no):", prior_probability[0])
@@ -127,3 +127,4 @@ if (pred):
     print("Play Tennis: Yes")
 else:
     print("Play Tennis: No")
+
